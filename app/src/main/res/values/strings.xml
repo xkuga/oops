@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">Oops</string>
+    <string name="save">Save</string>
+    <string name="saved">Saved</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="back">Back</string>
+    <string name="tips">Tips</string>
+    <string name="rename">Rename</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="warning">warning</string>
+    <string name="read_mode">Read Mode</string>
+    <string name="edit_mode">Edit Mode</string>
+    <string name="init_password">Init password</string>
+    <string name="input_password">Password</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="category_name">Category name</string>
+    <string name="file_name">File name</string>
+    <string name="name_empty">Empty name</string>
+    <string name="name_exists">Name already exists</string>
+    <string name="categories">Categories</string>
+    <string name="files">Files</string>
+    <string name="file">File</string>
+    <string name="about">About</string>
+    <string name="img_folder">Folder image</string>
+    <string name="img_file">File image</string>
+    <string name="about_msg">哎呦，不错哦</string>
+
+</resources>
+

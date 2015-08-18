@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onepiece.kuga.oops" >
+
+    <application
+        android:name="com.onepiece.kuga.Oops"
+        android:allowBackup="true"
+        android:icon="@mipmap/oops"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="oops.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".CategoryListActivity"
+            android:label="@string/categories" >
+        </activity>
+
+        <activity
+            android:name=".FileListActivity"
+            android:label="@string/files" >
+        </activity>
+
+        <activity
+            android:name=".FileActivity"
+            android:label="@string/file" >
+        </activity>
+    </application>
+
+</manifest>
